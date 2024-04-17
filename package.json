@@ -29,6 +29,11 @@
         "type": "string",
         "default": "**/*",
         "description": "Glob pattern to specify files for random selection."
+      },
+      "coderoulette.globExclude": {
+        "type": "string",
+        "default": "",
+        "description": "Glob pattern to specify files to exclude from random selection."
       }
     }
   },
