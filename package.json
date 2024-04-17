@@ -14,14 +14,10 @@
   "contributes": {
     "commands": [
       {
-        "command": "coderoulette.helloWorld",
-        "title": "Hello World"
-      },
-      {
         "command": "coderoulette.openRandomFile",
         "title": "Open Random File"
       }
-    ]
+    ],
     "type": "object",
     "title": "coderoulette",
     "properties": {
