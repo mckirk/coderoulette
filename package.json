@@ -18,12 +18,12 @@
     "commands": [
       {
         "command": "coderoulette.openRandomFile",
-        "title": "Open Random File"
+        "title": "Open Random File",
         "category": "CodeRoulette"
       },
       {
         "command": "coderoulette.updateFileCache",
-        "title": "Update File Cache"
+        "title": "Update File Cache",
         "category": "CodeRoulette"
       }
     ],
