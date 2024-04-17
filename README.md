@@ -18,14 +18,13 @@ If you have any requirements or dependencies, add a section describing those and
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
 This extension contributes the following settings:
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+* `coderoulette.globPattern`: Glob pattern to specify files for random selection.
+* `coderoulette.excludePattern`: Glob pattern to specify files to exclude from random selection.
+
+These settings allow you to customize the behavior of the CodeRoulette extension to better fit your project needs.
+
 
 ## Known Issues
 
