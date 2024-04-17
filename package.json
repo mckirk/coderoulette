@@ -25,9 +25,10 @@
         "title": "Update File Cache"
       }
     ],
-    "type": "object",
-    "title": "coderoulette",
-    "properties": {
+    "configuration": {
+      "type": "object",
+      "title": "CodeRoulette Settings",
+      "properties": {
       "coderoulette.globPattern": {
         "type": "string",
         "default": "**/*",
@@ -37,6 +38,7 @@
         "type": "string",
         "default": "",
         "description": "Glob pattern to specify files to exclude from random selection."
+      }
       }
     }
   },
