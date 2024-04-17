@@ -1,7 +1,7 @@
 {
   "name": "coderoulette",
   "displayName": "CodeRoulette",
-  "description": "",
+  "description": "A VS Code extension that allows users to open a random file based on a configurable glob pattern, enhancing code exploration and review.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.88.0"
