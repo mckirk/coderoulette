@@ -9,6 +9,9 @@
   "categories": [
     "Other"
   ],
+  "author": "McKirk",
+  "license": "MIT",
+  "keywords": ["vscode", "random", "file", "open", "explore", "code"],
   "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
