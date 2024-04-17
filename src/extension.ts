@@ -7,8 +7,8 @@ let currentGlobPattern = '';
 
 async function getFiles(forceRefresh = false) {
   const config = vscode.workspace.getConfiguration('coderoulette');
-  const globPattern = config.get<string>('randomFileGlob', '**/*');
-  const excludePattern = config.get<string>('globExclude', '');
+  const globPattern = config.get<string>('globPattern', '**/*');
+  const excludePattern = config.get<string>('excludePattern', '');
 
   if (forceRefresh || globPattern !== currentGlobPattern || excludePattern) {
     currentGlobPattern = globPattern;
