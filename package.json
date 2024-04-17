@@ -29,16 +29,16 @@
       "type": "object",
       "title": "CodeRoulette Settings",
       "properties": {
-      "coderoulette.globPattern": {
-        "type": "string",
-        "default": "**/*",
-        "description": "Glob pattern to specify files for random selection."
-      },
-      "coderoulette.excludePattern": {
-        "type": "string",
-        "default": "",
-        "description": "Glob pattern to specify files to exclude from random selection."
-      }
+        "coderoulette.globPattern": {
+          "type": "string",
+          "default": "**/*",
+          "description": "Glob pattern to specify files for random selection."
+        },
+        "coderoulette.excludePattern": {
+          "type": "string",
+          "default": "",
+          "description": "Glob pattern to specify files to exclude from random selection."
+        }
       }
     }
   },
