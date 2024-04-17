@@ -16,6 +16,10 @@
       {
         "command": "coderoulette.openRandomFile",
         "title": "Open Random File"
+      },
+      {
+        "command": "coderoulette.updateFileCache",
+        "title": "Update File Cache"
       }
     ],
     "type": "object",
