@@ -16,8 +16,21 @@
       {
         "command": "coderoulette.helloWorld",
         "title": "Hello World"
+      },
+      {
+        "command": "coderoulette.openRandomFile",
+        "title": "Open Random File"
       }
     ]
+    "type": "object",
+    "title": "coderoulette",
+    "properties": {
+      "coderoulette.randomFileGlob": {
+        "type": "string",
+        "default": "**/*",
+        "description": "Glob pattern to specify files for random selection."
+      }
+    }
   },
   "scripts": {
     "vscode:prepublish": "pnpm run compile",
